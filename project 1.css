@@ -1,0 +1,39 @@
+.cardbody{
+    border:2px solid black;
+    padding:1%;
+    margin:1%;
+    font-size: 20px;
+    width:30%;
+    text-align: center;
+}
+s{
+    color:blue;
+
+}
+p{
+    color:green;
+}
+h2{
+    color:brown;
+}
+button{
+    color:red;
+    background-color:burlywood;
+    width:30%;
+    padding:1%
+
+}
+.card{
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+}
+.cardbody img{
+    width:90%;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
+@media only screen and (min-width:320px) and (max-width:480px){
+
+}
